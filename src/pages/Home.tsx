@@ -1,13 +1,17 @@
 import React from "react";
-import Nav from "../components/Nav";
-import DbTest from "../components/DbTest";
-import Footer from "../components/Footer";
+import styles from "./Home.module.css";
+
+import Header from "../components/Header/Header";
+import DbTest from "../components/Content/DbTest";
+import Footer from "../components/Footer/Footer";
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <Nav />
-      <DbTest />
+    <div className={styles.pageWrapper}>
+      <Header />
+      <div className={styles.contentWrapper}>
+        <DbTest />
+      </div>
       <Footer />
     </div>
   );

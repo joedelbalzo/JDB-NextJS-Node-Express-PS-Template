@@ -1,0 +1,15 @@
+.divContentWrapper {
+  border: 2px solid dodgerblue;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.list {
+  font-size: 1.5rem;
+}
+.listItem {
+  text-indent: 1rem;
+  list-style-position: inside;
+  list-style-type: circle;
+  font-size: calc(12px + 1vw);
+}

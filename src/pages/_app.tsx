@@ -1,6 +1,7 @@
 import React from "react";
 import App, { AppProps } from "next/app";
 import Head from "next/head";
+import "../assets/globals.css";
 
 import { Inter } from "next/font/google";
 
